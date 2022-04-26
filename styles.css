@@ -1,0 +1,45 @@
+/*
+  Name: Alamjit Choat
+  Date: January 25, 2022
+  Section: CSE 154 AD
+  This is the styles.css page that is used by index.html and retains
+  a UW inspired theme for a todo list.
+  Citations: UW Image sourced from
+  https://careers.uw.edu/resources/uw-backgrounds-for-virtual-interviews/
+*/
+
+body {
+  background: url("uw-background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  text-align: center;
+  color: rgb(39, 0, 75);
+}
+
+li {
+  list-style-position: inside;
+  font-size: 30px;
+  padding-right: 250px;
+}
+
+h1 {
+  font-size: 70px;
+  padding: 0px;
+}
+
+button {
+  background-color: rgb(39, 0, 75);
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p {
+  font-size: 40px;
+}
